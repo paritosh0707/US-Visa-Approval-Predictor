@@ -20,7 +20,7 @@ class MongoDBClient:
     """
     client = None
 
-    def __init__(self, database_name=DATABASE_NAME) -> None:
+    def __init__(self, database_name: str =DATABASE_NAME) -> None:
         try:
             if MongoDBClient.client is None:
                 mongo_db_url = os.getenv(MONGODB_URL_KEY)
