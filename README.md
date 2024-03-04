@@ -20,3 +20,8 @@ The act also protects US workers against adverse impacts on working place and ma
 
         https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
+## 3) Project Workflow design
+
+All the components are designed as follows: 
+
+![Example Image](FLowcharts/Model_Trainer.png)
