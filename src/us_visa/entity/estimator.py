@@ -18,8 +18,6 @@ class TargetValueMapping:
     
 
 
-
-
 class USvisaModel:
     def __init__(self, preprocessing_object: Pipeline, trained_model_object: object):
         """
