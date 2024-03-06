@@ -66,3 +66,10 @@ MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str = os.path.join("config", "model.yaml")
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
 MODEL_BUCKET_NAME = "us-visa-approval"
 MODEL_PUSHER_S3_KEY = "model-registry"
+
+
+"""
+User App related constant
+"""
+APP_HOST = "0.0.0.0"
+APP_PORT = 8080
